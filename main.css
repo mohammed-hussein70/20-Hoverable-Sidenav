@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+}
+
+.links a {
+  display: block;
+  text-decoration: none;
+  width: 100px;
+  padding: 20px;
+  border-radius: 0 10px 10px 0;
+  transition: 0.2s;
+  position: relative;
+  left: -80px;
+  font-size: 25px;
+  color: white;
+  &:hover,
+  &:focus {
+    left: 0;
+  }
+}
+.links #about {
+  top: 20px;
+  background-color: #04aa6d;
+}
+.links #blog {
+  top: 40px;
+  background-color: #2196f3;
+}
+.links #project {
+  top: 60px;
+  background-color: #f44336;
+}
+.links #contact {
+  top: 80px;
+  background-color: #555;
+}
